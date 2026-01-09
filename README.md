@@ -27,11 +27,11 @@
 Для реализации данного проекта  используются данные о бронировании билетов на сервисе Яндекс Афиша за период **с 1 июня по 31 октября 2024 года**. Данные размещены в двух датасетах  `final_tickets_orders_df.csv` и `final_tickets_events_df.csv`.
 
 ## Инструменты и технологии
-SQL (СУБД PostgreAQL);
-Yandex DataLens;
-Python (pandas, numpy, scipy, matplotlib);
-Jupyter Notebook;
-статистические тесты (`тест Шапиро`,`тест Anderson-Darling`,`тест Колмогорова – Смирнов`,`Тест Манна-Уитни (Mann–Whitney U test)`)
+- SQL (СУБД PostgreAQL);
+- Yandex DataLens;
+- Python (pandas, numpy, scipy, matplotlib);
+- Jupyter Notebook, DBeaver;
+- статистические тесты (`тест Шапиро`,`тест Anderson-Darling`,`тест Колмогорова – Смирнов`,`Тест Манна-Уитни (Mann–Whitney U test)`)
 
 ## Гипотезы проекта:
 - Гипотеза 1:Среднее количество заказов на одного пользователя мобильного приложения выше, чем у пользователей стационарных устройств.
